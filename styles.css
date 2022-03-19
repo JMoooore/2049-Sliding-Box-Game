@@ -31,9 +31,7 @@ body {
     border-radius: 1vmin;
 }
 
-.tile {
-    --x: 1;
-    --y: 2;
+.tile {    
     position: absolute;
     display: flex;
     justify-content: center;
@@ -46,4 +44,13 @@ body {
     font-weight: bold;
     background-color: hsl(200, 50%, var(--background-lightness));
     color: hsl(200, 25%, var(--text-lightness));
+    animation: show 200ms ease-in-out;
+    transition: 100ms ease-in-out;
+}
+
+@keyframes show {
+    0% {
+        opacity: .5;
+        transform: scale(0);
+    }
 }
