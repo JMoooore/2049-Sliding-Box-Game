@@ -1,0 +1,19 @@
+{
+  "name": "2049-sliding-box-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Grid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMoooore/2049-Sliding-Box-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMoooore/2049-Sliding-Box-Game/issues"
+  },
+  "homepage": "https://github.com/JMoooore/2049-Sliding-Box-Game#readme"
+}
